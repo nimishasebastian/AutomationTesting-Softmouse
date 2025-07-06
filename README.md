@@ -33,4 +33,9 @@ pom.xml → Maven Configuration
 
 
 ## Steps to Clone and Execute the step 
+https://github.com/nimishasebastian/AutomationTesting-Softmouse
+
+git clone https://github.com/nimishasebastian/AutomationTesting-Softmouse
+cd AutomationTesting-Softmouse
+mvn clean test
 

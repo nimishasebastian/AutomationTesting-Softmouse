@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-06T12:38:41 GMT-04:00" name="SoftMouse Application Test Automation Test Suite" finished-at="2025-07-06T12:40:16 GMT-04:00" duration-ms="95719">
+    <groups>
+    </groups>
+    <test started-at="2025-07-06T12:38:41 GMT-04:00" name="SoftMouse Test Cases" finished-at="2025-07-06T12:40:16 GMT-04:00" duration-ms="95719">
+      <class name="com.Selenium.qa.testcases.StrainsListTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:39:45 GMT-04:00" name="setup" finished-at="2025-07-06T12:39:55 GMT-04:00" duration-ms="9580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEditStrain(java.lang.String)[pri:1, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:39:55 GMT-04:00" name="testEditStrain" data-provider="getTestData" finished-at="2025-07-06T12:40:03 GMT-04:00" duration-ms="8041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comment edited successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:40:03 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:40:03 GMT-04:00" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:40:03 GMT-04:00" name="setup" finished-at="2025-07-06T12:40:11 GMT-04:00" duration-ms="7876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestDeleteStrain()[pri:2, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:40:11 GMT-04:00" name="TestDeleteStrain" finished-at="2025-07-06T12:40:16 GMT-04:00" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDeleteStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.StrainsListTest@3e62d773]" started-at="2025-07-06T12:40:16 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:40:16 GMT-04:00" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.Selenium.qa.testcases.StrainsListTest -->
+      <class name="com.Selenium.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.LoginPageTest@36804139]" started-at="2025-07-06T12:38:41 GMT-04:00" name="setup" finished-at="2025-07-06T12:38:44 GMT-04:00" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPagetest()[pri:0, instance:com.Selenium.qa.testcases.LoginPageTest@36804139]" started-at="2025-07-06T12:38:44 GMT-04:00" name="LoginPagetest" finished-at="2025-07-06T12:38:45 GMT-04:00" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Selenium.qa.testcases.LoginPageTest@36804139]" started-at="2025-07-06T12:38:45 GMT-04:00" name="teardown" finished-at="2025-07-06T12:38:46 GMT-04:00" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Selenium.qa.testcases.LoginPageTest -->
+      <class name="com.Selenium.qa.testcases.CreateNewStrainTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:38:46 GMT-04:00" name="setup" finished-at="2025-07-06T12:38:54 GMT-04:00" duration-ms="7944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateANewStrain(java.lang.String,java.lang.String)[pri:1, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:38:54 GMT-04:00" name="testCreateANewStrain" data-provider="getTestData" finished-at="2025-07-06T12:39:00 GMT-04:00" duration-ms="6136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NameA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameA Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:00 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:39:01 GMT-04:00" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:01 GMT-04:00" name="setup" finished-at="2025-07-06T12:39:10 GMT-04:00" duration-ms="8653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateANewStrain(java.lang.String,java.lang.String)[pri:1, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:10 GMT-04:00" name="testCreateANewStrain" data-provider="getTestData" finished-at="2025-07-06T12:39:15 GMT-04:00" duration-ms="5335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NameB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameB Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:15 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:39:15 GMT-04:00" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:15 GMT-04:00" name="setup" finished-at="2025-07-06T12:39:24 GMT-04:00" duration-ms="8378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateANewStrain(java.lang.String,java.lang.String)[pri:1, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:24 GMT-04:00" name="testCreateANewStrain" data-provider="getTestData" finished-at="2025-07-06T12:39:29 GMT-04:00" duration-ms="5567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NameC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameC Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:29 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:39:30 GMT-04:00" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:30 GMT-04:00" name="setup" finished-at="2025-07-06T12:39:37 GMT-04:00" duration-ms="7887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NegativetestCreateANewStrain()[pri:2, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:37 GMT-04:00" name="NegativetestCreateANewStrain" finished-at="2025-07-06T12:39:43 GMT-04:00" duration-ms="5611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativetestCreateANewStrain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Selenium.qa.testcases.CreateNewStrainTest@4c2bb6e0]" started-at="2025-07-06T12:39:43 GMT-04:00" name="Teardown" finished-at="2025-07-06T12:39:45 GMT-04:00" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.Selenium.qa.testcases.CreateNewStrainTest -->
+    </test> <!-- SoftMouse Test Cases -->
+  </suite> <!-- SoftMouse Application Test Automation Test Suite -->
+</testng-results>

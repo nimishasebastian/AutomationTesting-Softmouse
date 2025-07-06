@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SoftMouse Application Test Automation Test Suite">
+
+	 <listeners>
+        <listener class-name="com.Selenium.qa.listeners.ExtentTestListener" />
+    </listeners>
+
+
+	<test name="SoftMouse Test Cases">
+		<classes>
+			<class name="com.Selenium.qa.testcases.LoginPageTest"></class>
+			<class name="com.Selenium.qa.testcases.CreateNewStrainTest"></class>
+			<class name="com.Selenium.qa.testcases.StrainsListTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>

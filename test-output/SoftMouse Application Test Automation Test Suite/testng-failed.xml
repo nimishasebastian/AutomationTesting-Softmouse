@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SoftMouse Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.Selenium.qa.listeners.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="SoftMouse Test Cases(failed)">
+    <classes>
+      <class name="com.Selenium.qa.testcases.CreateNewStrainTest">
+        <methods>
+          <include name="setup"/>
+          <include name="NegativetestCreateANewStrain"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Selenium.qa.testcases.CreateNewStrainTest -->
+    </classes>
+  </test> <!-- SoftMouse Test Cases(failed) -->
+</suite> <!-- Failed suite [SoftMouse Application Test Automation Test Suite] -->
